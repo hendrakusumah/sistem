@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MotorSport</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.defaultvalue.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.scrollTo-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#fullname, #validemail, #message").defaultvalue("Full Name", "Email Address", "Message");
+    $('#shout a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+<!-- Homepage Only Scripts -->
+<script type="text/javascript" src="layout/scripts/jquery.cycle.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#hpage_slider').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+        timeout: 5000,
+        fx: 'fade',
+        pager: '#fs_pagination',
+        pause: 1,
+        pauseOnPagerHover: 0
+    });
+});
+</script>
+<script type="text/javascript" src="layout/scripts/piecemaker/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+var flashvars = {};
+flashvars.cssSource = "layout/scripts/piecemaker/piecemaker.css";
+flashvars.xmlSource = "layout/scripts/piecemaker/piecemaker.xml";
+var params = {};
+params.play = "false";
+params.menu = "false";
+params.scale = "showall";
+params.wmode = "transparent";
+params.allowfullscreen = "true";
+params.allowscriptaccess = "sameDomain";
+params.allownetworking = "all";
+swfobject.embedSWF('layout/scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+</script>
+<!-- End Homepage Only Scripts -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul>
+      <li></li>
+    </ul>
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Search&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="images/Search/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h2>Motor Sport</h2>
+      <p>&nbsp;</p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li class="last"><a href="Pages/gallery.php">Gallery</a></li>
+        <li></li>
+        <li><a href="Pages/products.php">PRODUCT</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="index.php">HOMEPAGE</a></li>
+        <li class="active"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="featured_slide"> 
+    <!-- ####################################################################################################### -->
+    <div id="piecemaker"></div>
+    <!-- ####################################################################################################### --> 
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container" class="clear"> 
+    <!-- ####################################################################################################### -->
+    <div id="shout" class="clear">
+      <div class="fl_left">
+        <h2>Ingin motor anda bagus dan Kencang? pilihannya 			cuma ada di web ini!</h2>
+      </div>
+      <p class="fl_right">&nbsp;</p>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div id="homepage" class="clear">
+      <div class="fl_left">
+        <p>FOTO-FOTO</p>
+        <div id="hpage_slider">
+          <div class="item"><img src="images/IMG_3.jpg" alt="" width="476" height="330" /></div>
+          <div class="item"><img src="images/IMG_2.jpg" alt="" width="476" height="330" /></div>
+          <div class="item"><img src="images/IMG_4.jpg" alt="" width="476" height="330" /></div>
+          <div class="item"><img src="images/IMG_1.jpg" alt="" width="476" height="330" /></div>
+          <div class="item"><img src="images/IMG_7.jpg" alt="" width="476" height="330" /></div>
+        </div>
+        <h2>&nbsp;</h2>
+      </div>
+      <div class="fl_right">
+        <p align="justify">&nbsp;</p>
+        <h2>Motor Sport</h2>
+        <p align="justify">Sesuai judul, ane bakal bahas tentang motorsport buatan Jepang yang   lampu depannya pakai kopiah/tudung atau cover yang menutup hingga   speedometernya pun gak kelihatan, indonesia only.... Sebenernya fungsi   dari cover lampu tersebut selain memperindah tampilan motor, jadi   terlihat lebih sporty, juga berfingsi membantu aerodinamis motor   tersebut ketika motor tersebut melaju kencang. . Tudung/kopiah ini sering juga disebut dengan mini fairing atau mini hijab .   Trit ini hanya bahas motor Jepang gan, dan gak termasuk Bajaj dan TVS   karena meskipun kedua merk tersebut asalnya memakai mesin dan teknology   dari Kawasaki dan Suzuki, tetapi motor tersebut berasal dari India. Trit   ini ane juga tidak akan membahas tentang motorsport full fairing   seperti Ninja, NSR, atau RGR, karena keluar dari judul gan.<br />
+          <br />
+Trit ini dibuat hanya sebagai pengetahuan aja, juga buat sharing sesama   pecinta motorsport indo only. Meskipun pada akhirnya ada juga beberapa   motor bebek yang mengaplikasi cover lampu lebih sering disebut bebek   ayam jago, tapi ane gak bakal bahas motor bebek di trit ini gan .   Dan di dalam trit ini juga tidak akan membahas motor ayam jago seperti   Honda Sonic dan Suzuki Satria FU, karena itu keluar dari judul trit ini.</p>
+        
+        
+        
+        
+        
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Newsletter Signup:</legend>
+            <input type="text" id="newsletter" value="Enter Email Here&hellip;" onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+            <input type="image" id="subscribe" src="images/Search/submit.jpg" alt="Submit" />
+          </fieldset>
+        </form>
+        <p class="form_hint">* Please add name@domain.com to your trusted email list</p>
+      </div>
+    </div>
+	
+		
+		<h1>KOMENTAR</h1>
+		<form name="input" method="POST" action="index.php">
+		<table border="0">
+		<tr>
+		<td>ID</td>
+		<td><input type="text" name="id"></td>
+		</tr>
+		<tr>
+		<td>Nama</td>
+		<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+		<td>E-mail</td>
+		<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+		<td>Komentar</td>
+		<td><textarea name="komen"></textarea></td>
+		</tr>
+		<tr>
+		<td colspan="2"><input type="submit" value="Kirim" name="kirim"><input type="reset" value="Batal" name="batal"></td>
+		</tr>
+		</table>
+		</form>
+		
+		<?php 
+						extract ($_POST);
+						if(isset($kirim))
+						{
+						include "koneksi.php";
+						$input="insert into kom values ('$id','$nama','$email','$komen')";
+						$save=mysql_query($input);
+						if($save)
+						{
+						?>
+					<script language="JavaScript">
+					alert("Data berhasil disimpan");
+					document.location="tampil.php";
+					</script>
+						<?php
+						}
+						else
+						{
+						?>
+					<script language="JavaScript">
+					alert("Data gagal disimpan");
+					document.location="index.php";
+					</script>
+						<?php	
+						}
+						}
+						?>
+		<!--tampil-->
+		
+		<form id="form1" name="form1" method="post" action="">
+					<table border="0" width="100%" align="center" bgcolor="#333333" cellpadding="10" cellpadding="10">
+					<tr>
+					<td colspan="6" align="center"><font color="white"><b>KOMENTAR</b></td>
+					</tr>
+					<tr>
+					<td width="10%" bgcolor="black" align="center"><font color="white"><b>ID</b></td>
+					<td width="20%" bgcolor="black" align="center"><font color="white"><b>Nama</b></td>
+					<td width="15%" bgcolor="black" align="center"><font color="white"><b>E-mail</b></td>
+					<td width="20%" bgcolor="black" align="center"><font color="white"><b>Komentar</b></td>
+					
+					</tr>
+
+						<?php
+						include "koneksi.php";
+						$query="select*from kom";
+						$result=mysql_query($query);
+						while($data=mysql_fetch_array($result))
+						{
+						?>
+					<tr>
+					<td align="center"><?php echo $data['id']; ?></td>
+					<td align="center"><?php echo $data['nama']; ?></td>
+					<td align="center"><?php echo $data['email']; ?></td>
+					<td align="center"><?php echo $data['komen']; ?></td>
+					
+					
+					</tr>
+
+						<?php	
+						}
+						?>
+					</table>
+					</form>						
+					
+	
+	
+	
+	
+	
+    <!-- ####################################################################################################### --> 
+  </div>
+</div>
+<!-- Tentang web diatas -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="fl_left">
+      <div class="about_us border">
+        <h2>About Us</h2>
+        <p>Road racing is the sport of racing motorcycles on tarmac. Races can take place either on purpose-built <a href="https://en.wikipedia.org/wiki/Racing_circuit" title="Racing circuit">racing circuits</a> or on closed public roads.</p>
+        <p align="justify">Grand Prix motorcycle racing refers to the     premier   category of   motorcycle road racing. It is divided into three     distinct   classes:</p>
+        <ul>
+          <p align="justify">Moto3: Introduced in 2012, motorcycles in       this class are 250cc with   single-cylinder four-stroke engines       Previously it featured 125&nbsp;cc   two-stroke motorcycles. This class is       also restricted by rider age, with   an upper limit of 25 for newly       signed riders and wild card entries and   an absolute upper limit of   28     for all riders.</p>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+      
+        <div id="comment">
+		
+		
+		
+	
+		
+
+    </div>
+    <!-- Link media sosial -->
+    <div class="fl_right">
+      <div id="tabcontainer" class="border">
+        <div id="tabs-3" class="tabcontainer">        </div>
+      </div>
+      <h2>Keep Up To Date</h2>
+      <ul class="socialize">
+        <li><span>Facebook:</span> <a href="#">www.facebook.com/myhandel</a></li>
+        <li><span>Twitter:</span> <a href="#">www.twitter.com/myhandel</a></li>
+        <li class="last"><span>LinkedIn:</span> <a href="#">www.linkedin.com/myhandel</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="backtotop"></div>
+</div>
+
+<!-- copyright -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Hendra kusumah</a></p>
+    <p class="fl_right">&nbsp;</p>
+  </div>
+</div>
+</body>
+</html>
